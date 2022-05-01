@@ -1,0 +1,17 @@
+body{
+background-image:linear-gradient(purple,white);
+}
+.fs{
+width:25%;
+height:45%;
+background-image:linear-gradient(white,purple);
+}
+h3{
+color:purple;
+font-family:verdana;
+text-shadow:3px 3px white;
+}
+h3::first-letter{
+font-size:3rem;
+line-height:0.7;
+}

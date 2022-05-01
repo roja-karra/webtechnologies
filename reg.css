@@ -1,0 +1,33 @@
+body{
+background-color:(grey 10%,#FFFFFF 21%);
+/*
+background-image:repeating-radial-gradient(grey 10%,#FFFFFF 11%);
+*/
+}
+.rs{
+width:30%;
+height:130%;
+background-image:linear-gradient(to left,white,grey);
+box-shadow:5px 6px white;
+}
+h3{
+color:grey;
+font-family:verdana;
+text-shadow:3px 3px white;
+}
+h3::first-letter{
+font-size:3rem;
+line-height:0.7;
+}
+:checked{
+height:40px;
+width:40px;
+}
+input[type=text]:enabled{
+background-color:#76EE72;
+}
+input:valid{
+background-color:#84E1FF;
+}
+
+

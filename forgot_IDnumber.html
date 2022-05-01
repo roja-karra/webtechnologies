@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>forgot page</title>
+		<link rel="stylesheet" type="text/css" href="forgot.css">
+	</head>
+	<body>
+		<center>
+		<h3>password form</h3>
+		<div class="fs">
+		<label for="username">User Name:</label>
+		<input type="textarea" id="user" name="user" placeholder="enter user name" style="font-size:18px" required><br><br>
+		<label for="dob">Dob:</label>
+		<input type="date" id="date" name="dob"><br><br>
+		<label for="Email Id">Email Id:</label>
+		<input type="email" id="mail" name="email" placeholder="enter your Mail Id" style="font-size:18px" required><br><br>
+		<label for="Phno">Ph No.:</label>
+		<input type="tel" id="phno" name="phno" pattern=[0-9]{3}-[0-9]{2}-[0-9]{3} placeholder="enter phno" style="font-size:18px"required><br>
+		<br><label for="secq">Security quetions:</label>
+			<select name="secq" id="sq">
+				<option value="SQ"></option>
+				<option value="q1">what is ur fav subject?</option>
+				<option value="q2">what is your aim?</option>
+				<option value="q3">what is ur native place?</option>
+				<option value="q4">who is your role model?</option>
+				<option value="q5">do you think money is imp?</option>	
+			</select><br><br>
+			<label for="ans">Answers:</label>
+			<input type="textarea" id="ans" name="answ" placeholder="enter your answer" style="font-size:18px" required><br><br>
+			<button type="submit" value="submit" style="height:30px" width="200px">submit</button>
+			<button type="reset" value="reset" style="height:30px" width="200px">reset</button><br>
+			</div>
+	</body>
+</html>
